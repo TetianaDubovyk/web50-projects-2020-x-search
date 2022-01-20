@@ -1,0 +1,140 @@
+.ref {
+    float: right;
+    padding: 20px;
+}
+
+a {
+    padding: 8px;
+}
+
+#input {
+    width: 580px;
+    padding: 5px;
+    height: 33px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 10px;
+    cursor: text;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img {
+    padding-top: 250px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:272px;
+    height:92px;
+}
+
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+
+#button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#button:hover {
+    border: 2px solid #d2d3d4;
+}
+
+#adv_img {
+    padding: 12px;
+    width:74px;
+    height:24px;
+}
+
+h2 {
+    color: #d93025;
+    font-size: 20px;
+    margin: 30px 35px;
+    cursor: default;
+}
+
+.divider {
+    border-bottom: 1px solid #ebebeb;
+    margin: 40px 0;
+    clear: both
+}
+
+span {
+    color: #333333;
+    font-size: 16px;
+    margin: 30px 35px;
+    margin-top: 30px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+  
+.col-20 {
+    float: left;
+    width: 18%;
+    margin-top: 18px;
+    margin-left: 35px;
+}
+  
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+    margin-left: 30px;
+}
+
+#all, #exact, #any, #none {
+    width: 50%;
+    text-align: left;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 12px;
+    height: 25px;
+    padding: 1px 8px;
+    margin: 6px;
+    margin-left: 0px;
+}
+
+#adv_button {
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    color: #fff;
+    margin: 20px;
+    padding: 0 16px;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    width: 130px;
+    height: 32px;
+    float: left;
+    margin-top: 6px;
+    margin-left: 30px;
+}
+
+#adv_button:hover {
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+}
